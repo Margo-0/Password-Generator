@@ -45,7 +45,7 @@ for x in range(0, len(password)):
     Var_Del_From_Password = random.choice(password)
     Random_from_Password += Var_Del_From_Password
     password.remove(Var_Del_From_Password)
-print(f" Te drugie: {Random_from_Password}", len(Random_from_Password))
+print(f" Second: {Random_from_Password}", len(Random_from_Password))
 
 
 
